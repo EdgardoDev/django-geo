@@ -10,4 +10,4 @@ def calculate_distance_view(request):
       'distance' : obj,
     }
     
-    return render(request, 'meauseremnts/main.html', context)
+    return render(request, 'measurements/main.html', context)
